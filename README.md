@@ -5,7 +5,7 @@ This will be a website for our final project in 4320 that will encompass the sta
 Sahand Sadri
 Kevin Hunkins
 Daniel Weiss
-Daniel Clubb
+Daniel "The Hammer" Clubb
 Zachary Pierucci
 
 ## Description
