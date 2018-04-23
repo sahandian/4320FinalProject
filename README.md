@@ -2,11 +2,11 @@
 This will be a website for our final project in 4320 that will encompass the stats of the top 5 baseball rivalries
 
 ## PROJECT MEMBERS INCLUDE:
-Sahand Sadri
-Kevin Hunkins
-Daniel Weiss
-Daniel "The Hammer" Clubb
-Zachary Pierucci
+Sahand Sadri  
+Kevin Hunkins  
+Daniel Weiss  
+Daniel "The Hammer" Clubb  
+Zachary Pierucci  
 
 ## Description
 This will be a website for our final project in 4320 that will encompass the stats of the top 5 baseball rivalries.
