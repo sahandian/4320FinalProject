@@ -60,3 +60,38 @@ Penguins: 33<br />
  Daniel Sprong	8	2	1	3	2	0	0	0	0	0	1	0	22	9.1	0<br />
  Jean-Sebastien Dea	5	1	0	1	1	2	0	0	0	0	1	0	1	100	47.62<br />
  Josh Jooris	9	0	0	0	0	0	0	0	0	0	0	0	8	0	48<br />
+<br />
+Capitals:<br />
+PLAYER             GP G A P +/- PIM PPG PPP SHG SHP GWG OTG S S% FO%<br />
+Alexander Ovechkin 82	49	38	87	3	32	17	31	0	0	7	3	355	13.8	37.5<br />
+ Evgeny Kuznetsov	79	27	56	83	3	48	7	30	1	1	8	2	187	14.4	44.2<br />
+ Nicklas Backstrom	81	21	50	71	5	46	7	26	0	0	4	1	165	12.7	51.2<br />
+ John Carlson	82	15	53	68	0	32	4	32	0	0	4	1	237	6.3	0<br />
+ T.J. Oshie	74	18	29	47	2	31	9	18	0	0	3	0	127	14.2	47.87<br />
+ Lars Eller	81	18	20	38	-6	38	3	6	0	0	2	0	161	11.2	49.27<br />
+ Tom Wilson	78	14	21	35	10	187	0	1	1	1	1	0	123	11.4	46.3<br />
+ Dmitry Orlov	82	10	21	31	10	22	0	4	0	0	2	0	125	8	0<br />
+ Matt Niskanen	68	7	22	29	24	36	0	0	0	1	1	0	120	5.8	0<br />
+ Brett Connolly	70	15	12	27	-6	30	4	5	0	0	2	0	67	22.4	45.16<br />
+ Jakub Vrana	73	13	14	27	2	12	1	3	0	0	2	0	133	9.8	52<br />
+ Andre Burakovsky	56	12	13	25	3	27	2	4	0	0	5	1	84	14.3	54.55<br />
+ Jay Beagle	79	7	15	22	3	16	0	0	1	1	2	0	65	10.8	58.52<br />
+ Alex Chiasson	61	9	9	18	1	26	1	1	1	3	2	0	59	15.3	26.83<br />
+ Chandler Stephenson	67	6	12	18	13	8	0	0	0	0	0	0	36	16.7	54.79<br />
+ Devante Smith-Pelly	75	7	9	16	-6	38	0	0	0	0	1	0	103	6.8	48.48<br />
+ Christian Djoos	63	3	11	14	13	10	0	0	0	0	0	0	60	5	0<br />
+ Madison Bowey	51	0	12	12	-3	24	0	0	0	0	0	0	47	0	0<br />
+ Brooks Orpik	81	0	10	10	-9	68	0	0	0	0	0	0	54	0	0<br />
+ Jakub Jerabek	11	1	3	4	-1	0	0	0	0	0	0	0	11	9.1	0<br />
+ Michal Kempny	22	2	1	3	1	14	0	0	0	0	0	0	32	6.3	0<br />
+ Nathan Walker	7	1	0	1	1	4	0	0	0	0	0	0	4	25	0<br />
+ Travis Boyd	8	0	1	1	2	2	0	0	0	0	0	0	2	0	50<br />
+ Shane Gersich	3	0	1	1	-1	0	0	0	0	0	0	0	4	0	0<br />
+ 
+ 
+ 
+Player GP GS W L T OT SA GA GAA S Sv% SO MIN<br />
+ Philipp Grubauer	35	28	15	10	0	3	953	73	2.35	880	.923	3	1,865<br />
+ Braden Holtby	54	54	34	16	0	4	1,648	153	2.99	1,495	.907	0	3,068<br />
+
+ 
