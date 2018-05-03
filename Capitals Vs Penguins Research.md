@@ -61,6 +61,13 @@ Penguins: 33<br />
  Jean-Sebastien Dea	5	1	0	1	1	2	0	0	0	0	1	0	1	100	47.62<br />
  Josh Jooris	9	0	0	0	0	0	0	0	0	0	0	0	8	0	48<br />
 <br />
+
+Player GP GS W L T OT SA GA GAA S Sv% SO MIN<br />
+ Casey DeSmith    14	11	6	4	0	1	356	28	2.40	328	.921	1	701<br />
+ Matt Murray	49	45	27	16	0	3	1,423	133	2.92	1,290	.907	1	2,733<br />
+ Tristan Jarry	26	23	14	6	0	2	687	63	2.77	624	.908	2	1,364<br />
+ 
+ 
 Capitals:<br />
 PLAYER             GP G A P +/- PIM PPG PPP SHG SHP GWG OTG S S% FO%<br />
 Alexander Ovechkin 82	49	38	87	3	32	17	31	0	0	7	3	355	13.8	37.5<br />
