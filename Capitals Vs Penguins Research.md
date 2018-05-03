@@ -55,7 +55,7 @@ Penguins: 33<br />
  Derick Brassard	  14	3	5	8	1	4	1	1	0	0	1	0	33	9.1	46.89<br />
  Tom Kuhnhackl	    69	2	6	8	-6	6	0	1	0	1	1	0	63	3.2	16.67<br />
  Zach Aston-Reese	  16	4	2	6	2	2	0	0	0	0	1	0	20	20	16.67<br />
- Carter Rowney	    44	2	3	5	-13	4	0	0	1	1	0	0	21	9.5	52.9
+ Carter Rowney	    44	2	3	5	-13	4	0	0	1	1	0	0	21	9.5	52.9<br />
  Chad Ruhwedel 44	2	3	5	-8	16	0	0	0	0	0	0	67	3	0<br />
  Daniel Sprong	8	2	1	3	2	0	0	0	0	0	1	0	22	9.1	0<br />
  Jean-Sebastien Dea	5	1	0	1	1	2	0	0	0	0	1	0	1	100	47.62<br />
