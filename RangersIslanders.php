@@ -38,8 +38,8 @@
 	        </a>
 	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 	          <a class="dropdown-item" href="BluesHawks.php">Blues vs Blackhawks</a>
-	          <a class="dropdown-item" href="#">Rangers vs Islanders</a>
-	          <a class="dropdown-item" href="#">Penguins vs Capitals</a>
+	          <a class="dropdown-item" href="RangersIslanders.php">Rangers vs Islanders</a>
+	          <a class="dropdown-item" href="PenguinsCapitals.php">Penguins vs Capitals</a>
 	          <a class="dropdown-item" href="CanadiensLeafs.php">Canadiens vs Maple Leafs</a>
 	          <a class="dropdown-item" href="DucksKings.php">Ducks vs Kings</a>
 	          
@@ -62,12 +62,12 @@
 
 		<!--Put the image into src -->
         <div class="col-md-12">
-            <img class="img-fluid mx-auto d-block" src="https://img.bleacherreport.net/img/slides/photos/004/278/833/8aa058246dfc1ab713bc98b561ec1c02_crop_exact.jpg?h=533&w=800&q=70&crop_x=center&crop_y=top">  
+            <img class="img-fluid mx-auto d-block" src="https://img.bleacherreport.net/img/slides/photos/004/278/840/faff70afa60e830777ac30c85c5c4f42_crop_exact.jpg?h=533&w=800&q=70&crop_x=center&crop_y=top">  
         </div>
        
        <div class="jumbotron">
        	<!-- put in a small caption about the rivalry here -->
-       <h5><i>The rivalry between the Pittsburgh Penguins and Washington Capitals dates back to their first playoff series in 1991. It only intensified after Penguins center Sidney Crosby and Capitals left wing Alex Ovechkin made their NHL debuts in 2005-06.</i></h5>
+       <h5><i>Since the New York Islanders joined the NHL in 1972-73, they have had a heated rivalry with the New York Rangers. This season could see another exciting page written in their long-running feud.</i></h5>
        </div>
             
 
@@ -81,8 +81,8 @@
                 <div class="card-body">
                 	<!-- Insert here -->
         			<h5 class="text-center"><u>Stanley Cups</u></h5>
-                  <p class="card-text text-center"><strong>PENGUINS : 5</strong></p>
-                  <p class="text-muted text-center">Capitals : 0</p>
+                  <p class="card-text text-center"><strong>TIE : 4</strong></p>
+                  
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       
@@ -98,8 +98,8 @@
                 <div class="card-body">
                 	<!-- Insert here -->
                 	<h5 class="text-center"><u>All Time Record</u></h5>
-                  <p class="card-text text-center"><strong>148–124–16 </strong></p>
-                  <p class="text-center"><strong>PITTSBURGH</strong></p>
+                  <p class="card-text text-center"><strong>163–162–19 </strong></p>
+                  <p class="text-center"><strong>RANGERS</strong></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       
@@ -115,8 +115,8 @@
                 <div class="card-body">
                 	<!-- Insert here -->
                 	<h5 class="text-center"><u>Playoff Appearances</u></h5>
-                  <p class="card-text text-center"><strong>PENGUINS : 33</strong></p>
-                  <p class="text-muted text-center">Capitals : 27</p>
+                  <p class="card-text text-center"><strong>RANGERS : 59</strong></p>
+                  <p class="text-muted text-center">Islanders : 24</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       
@@ -133,8 +133,8 @@
                 <div class="card-body">
                 	<!-- Insert here -->
                 	<h5 class="text-center"><u>MVPs</u></h5>
-                  <p class="card-text text-center"><strong>PENGUINS : 7</strong></p>
-                  <p class="text-muted text-center">Capitals : 3</p>
+                  <p class="card-text text-center"><strong>RANGERS : 4</strong></p>
+                  <p class="text-muted text-center">Islanders : 1</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                      
@@ -177,7 +177,7 @@
 $servername = "sql303.epizy.com";
 $username = "epiz_20659252";
 $password = "password1";
-$dbname = "epiz_20659252_PenguinsCapitals";
+$dbname = "epiz_20659252_RangersIslanders";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -218,7 +218,7 @@ $conn->close();
         <table class="table table-bordered table-striped table-hover">
             <thead>
             <tr>
-            <td class="text-center" colspan="14">Penguins Statistics</td>
+            <td class="text-center" colspan="14">Rangers Statistics</td>
             </tr>
             </thead>
             <tbody>
@@ -245,7 +245,7 @@ $conn->close();
 $servername = "sql303.epizy.com";
 $username = "epiz_20659252";
 $password = "password1";
-$dbname = "epiz_20659252_PenguinsCapitals";
+$dbname = "epiz_20659252_RangersIslanders";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -253,7 +253,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 #echo "<h1>Connected successfully</h1>";
-$sql = "SELECT * FROM stats WHERE Team = 'PIT'";
+$sql = "SELECT * FROM stats WHERE Team = 'NYR'";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
@@ -301,7 +301,7 @@ header("refresh:2; url=index.php");
                 <table class="table table-bordered table-striped table-hover">
             <thead>
             <tr>
-            <td class="text-center" colspan="14">Capitals Statistics</td>
+            <td class="text-center" colspan="14">Islanders Statistics</td>
             </tr>
             </thead>
             <tbody>
@@ -336,7 +336,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 #echo "<h1>Connected successfully</h1>";
-$sql = "SELECT * FROM stats WHERE Team = 'WSH'";
+$sql = "SELECT * FROM stats WHERE Team = 'NYI'";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
