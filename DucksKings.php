@@ -218,7 +218,7 @@ $conn->close();
         <table class="table table-bordered table-striped table-hover">
             <thead>
             <tr>
-            <td class="text-center" colspan="14">Blues Statistics</td>
+            <td class="text-center" colspan="14">Ducks Statistics</td>
             </tr>
             </thead>
             <tbody>
@@ -253,7 +253,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 #echo "<h1>Connected successfully</h1>";
-$sql = "SELECT * FROM stats WHERE Team = 'STL'";
+$sql = "SELECT * FROM stats WHERE Team = 'ANA'";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
@@ -301,7 +301,7 @@ header("refresh:2; url=index.php");
                 <table class="table table-bordered table-striped table-hover">
             <thead>
             <tr>
-            <td class="text-center" colspan="14">Hawks Statistics</td>
+            <td class="text-center" colspan="14">Kings Statistics</td>
             </tr>
             </thead>
             <tbody>
@@ -336,7 +336,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 #echo "<h1>Connected successfully</h1>";
-$sql = "SELECT * FROM stats WHERE Team = 'CHI'";
+$sql = "SELECT * FROM stats WHERE Team = 'LAK'";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
