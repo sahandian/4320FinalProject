@@ -61,4 +61,5 @@ CREATE TABLE IF NOT EXISTS `teams` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 INSERT INTO `teams` (`Team`, `City`, `TeamCode`, `GamesPlayed`, `Points`, `Wins`, `Losses`, `OvertimeLosses`, `Division`, `Conferences`, `StanleyCups`) VALUES
-('Ducks','Anaheim','ANA',)
+('Ducks','Anaheim','ANA',82,101,44,25,13,'Pacific','Western',1),
+('Kings','Los Angeles','LAK',82,98,45,29,8,'Pacific','Western',2);
