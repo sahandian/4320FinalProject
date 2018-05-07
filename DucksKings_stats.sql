@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS `stats` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 INSERT INTO `stats` (`Name`, `Team`, `GP`, `G`, `A`, `P`, `+/-`, `PIM`, `PPG`, `PPP`, `SHG`, `SHP`, `GWG`, `OTG`, `Shots`) VALUES
-('Rickard Rakell','ANA',77,34,35,69,6,14,8,18,0,0,0,3,1,230),
+('Rickard Rakell','ANA',77,34,35,69,6,14,8,18,0,0,3,1,230),
 ('Ryan Getzlaf','ANA',56,11,50,61,20,42,0,13,1,2,0,0,117),
 ('Corey Perry','ANA',71,17,32,49,-4,71,4,11,0,0,1,0,168),
 ('Jakob Silfverberg','ANA',77,17,23,40,6,18,2,8,1,2,2,0,187),
