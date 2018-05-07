@@ -41,4 +41,24 @@ INSERT INTO `stats` (`Name`, `Team`, `GP`, `G`, `A`, `P`, `+/-`, `PIM`, `PPG`, `
 ('Tanner Pearson','LAK',82,15,25,40,11,27,2,5,0,0,4,2,180),
 ('Adrian Kempe','LAK',81,16,21,37,11,49,1,5,0,0,3,0,119),
 ('Trevor Lewis','LAK',68,14,12,26,-6,25,1,3,2,2,3,0,134),
-('Alec Martinez','LAK',)
+('Alec Martinez','LAK',77,9,16,25,3,34,2,11,0,1,0,0,111),
+('Alex Lafallo','LAK',75,9,16,25,10,12,0,2,0,0,1,0,129),
+('Jeff Carter','LAK',27,13,9,22,4,2,6,9,1,1,2,1,85),
+('Derek Forbort','LAK',78,1,17,18,18,49,0,0,0,0,0,0,78);
+
+CREATE TABLE IF NOT EXISTS `teams` (
+  `Team` text NOT NULL,
+  `City` text NOT NULL,
+  `TeamCode` text NOT NULL,
+  `GamesPlayed` int(11) NOT NULL,
+  `Points` int(11) NOT NULL,
+  `Wins` int(11) NOT NULL,
+  `Losses` int(11) NOT NULL,
+  `OvertimeLosses` int(11) NOT NULL,
+  `Division` text NOT NULL,
+  `Conferences` text NOT NULL,
+  `StanleyCups` text NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+INSERT INTO `teams` (`Team`, `City`, `TeamCode`, `GamesPlayed`, `Points`, `Wins`, `Losses`, `OvertimeLosses`, `Division`, `Conferences`, `StanleyCups`) VALUES
+('Ducks','Anaheim','ANA',)
