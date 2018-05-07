@@ -61,4 +61,4 @@ CREATE TABLE IF NOT EXISTS `teams` (
 
 INSERT INTO `teams` (`Team`, `City`, `TeamCode`, `GamesPlayed`, `Points`, `Wins`, `Losses`, `OvertimeLosses`, `Division`, `Conferences`, `StanleyCups`) VALUES
 ('Rangers','New York','NYR',82,77,34,39,9,'Metropolitan','Eastern',4)
-('Islanders','New York','NYI',82,80,35,37,10,'Metropolitan','Eastern',4)
+('Islanders','New York','NYI',82,80,35,37,10,'Metropolitan','Eastern',4);
