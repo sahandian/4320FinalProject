@@ -38,8 +38,8 @@
 	        </a>
 	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 	          <a class="dropdown-item" href="BluesHawks.php">Blues vs Blackhawks</a>
-	          <a class="dropdown-item" href="RangersIslanders.php">Rangers vs Islanders</a>
-	          <a class="dropdown-item" href="PenguinsCapitals.php">Penguins vs Capitals</a>
+	          <a class="dropdown-item" href="#">Rangers vs Islanders</a>
+	          <a class="dropdown-item" href="#">Penguins vs Capitals</a>
 	          <a class="dropdown-item" href="CanadiensLeafs.php">Canadiens vs Maple Leafs</a>
 	          <a class="dropdown-item" href="DucksKings.php">Ducks vs Kings</a>
 	          
@@ -57,17 +57,17 @@
 	<div class="container">
 
 		<!-- put your specific rivalry in header -->
-		<h1 class="text-center">Blues vs Blackhawks Rivalry</h1>
+		<h1 class="text-center">Penguins vs Capitals Rivalry</h1>
 
 
 		<!--Put the image into src -->
         <div class="col-md-12">
-            <img class="img-fluid mx-auto d-block" src="https://orig00.deviantart.net/b907/f/2014/109/d/c/2014_nhl_playoffs_rd_1_blues_vs__blackhawks_by_epoole88-d7f2zx3.jpg">  
+            <img class="img-fluid mx-auto d-block" src="https://img.bleacherreport.net/img/slides/photos/004/278/833/8aa058246dfc1ab713bc98b561ec1c02_crop_exact.jpg?h=533&w=800&q=70&crop_x=center&crop_y=top">  
         </div>
        
        <div class="jumbotron">
        	<!-- put in a small caption about the rivalry here -->
-       <h5><i>The Chicago Blackhawks and St. Louis Blues have a long, sometimes heated rivalry. It has ebbed and flowed over the years, but with both clubs among the best teams in the Western Conference in recent years, the level of competitiveness between them has increased.</i></h5>
+       <h5><i>The rivalry between the Pittsburgh Penguins and Washington Capitals dates back to their first playoff series in 1991. It only intensified after Penguins center Sidney Crosby and Capitals left wing Alex Ovechkin made their NHL debuts in 2005-06.</i></h5>
        </div>
             
 
@@ -81,8 +81,8 @@
                 <div class="card-body">
                 	<!-- Insert here -->
         			<h5 class="text-center"><u>Stanley Cups</u></h5>
-                  <p class="card-text text-center"><strong>BLACKHAWKS : 6</strong></p>
-                  <p class="text-muted text-center">Blues : 0</p>
+                  <p class="card-text text-center"><strong>PENGUINS : 5</strong></p>
+                  <p class="text-muted text-center">Capitals : 0</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       
@@ -98,8 +98,8 @@
                 <div class="card-body">
                 	<!-- Insert here -->
                 	<h5 class="text-center"><u>All Time Record</u></h5>
-                  <p class="card-text text-center"><strong>183-143-35-11</strong></p>
-                  <p class="text-center"><strong>CHICAGO</strong></p>
+                  <p class="card-text text-center"><strong>148–124–16 </strong></p>
+                  <p class="text-center"><strong>PITTSBURGH</strong></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       
@@ -115,8 +115,8 @@
                 <div class="card-body">
                 	<!-- Insert here -->
                 	<h5 class="text-center"><u>Playoff Appearances</u></h5>
-                  <p class="card-text text-center"><strong>BLACKHAWKS : 62</strong></p>
-                  <p class="text-muted text-center">Blues : 41</p>
+                  <p class="card-text text-center"><strong>PENGUINS : 33</strong></p>
+                  <p class="text-muted text-center">Capitals : 27</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       
@@ -133,8 +133,8 @@
                 <div class="card-body">
                 	<!-- Insert here -->
                 	<h5 class="text-center"><u>MVPs</u></h5>
-                  <p class="card-text text-center"><strong>BLACKHAWKS : 7</strong></p>
-                  <p class="text-muted text-center">Blues : 2</p>
+                  <p class="card-text text-center"><strong>PENGUINS : 7</strong></p>
+                  <p class="text-muted text-center">Capitals : 3</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                      
@@ -177,7 +177,7 @@
 $servername = "sql303.epizy.com";
 $username = "epiz_20659252";
 $password = "password1";
-$dbname = "epiz_20659252_BluesHawks";
+$dbname = "epiz_20659252_PenguinsCapitals";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -245,7 +245,7 @@ $conn->close();
 $servername = "sql303.epizy.com";
 $username = "epiz_20659252";
 $password = "password1";
-$dbname = "epiz_20659252_BluesHawks";
+$dbname = "epiz_20659252_PenguinsCapitals";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -290,15 +290,9 @@ $conn->close();
 sleep(2);
 header("refresh:2; url=index.php");
 ?>
-                
-                
-                
             
             </tbody>
-        
-        
-        
-        
+
         </table>
         </form>
         
@@ -334,7 +328,7 @@ header("refresh:2; url=index.php");
 $servername = "sql303.epizy.com";
 $username = "epiz_20659252";
 $password = "password1";
-$dbname = "epiz_20659252_BluesHawks";
+$dbname = "epiz_20659252_PenguinsCapitals";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -379,26 +373,14 @@ if(isset($_POST['deleteItem']) and is_numeric($_POST['deleteItem']))
 $conn->close();
 header("refresh:2; url=index.php");
 ?>
-                
-                
-                
-            
+
             </tbody>
-        
-        
-        
-        
+
         </table>
         </form>
-        
-        
-          
         </div>
-        
-        
-    </div>
 
-	
+    </div>
 
 </body>
 </html>

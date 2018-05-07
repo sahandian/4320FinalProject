@@ -27,10 +27,10 @@
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav mr-auto">
 	      <li class="nav-item">
-	        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="about.html">About</a>
+	        <a class="nav-link" href="#">About</a>
 	      </li>
 	      <li class="nav-item dropdown active">
 	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -41,8 +41,8 @@
 	          <a class="dropdown-item" href="RangersIslanders.php">Rangers vs Islanders</a>
 	          <a class="dropdown-item" href="PenguinsCapitals.php">Penguins vs Capitals</a>
 	          <a class="dropdown-item" href="CanadiensLeafs.php">Canadiens vs Maple Leafs</a>
-	          <a class="dropdown-item" href="DucksKings.php">Ducks vs Kings</a>
-	          
+	          <a class="dropdown-item" href="#">Ducks vs Kings</a>
+	         
 	        </div>
 	      </li>
 	    </ul>
@@ -57,17 +57,17 @@
 	<div class="container">
 
 		<!-- put your specific rivalry in header -->
-		<h1 class="text-center">Blues vs Blackhawks Rivalry</h1>
+		<h1 class="text-center">Canadians vs Maple Leafs Rivalry</h1>
 
 
 		<!--Put the image into src -->
         <div class="col-md-12">
-            <img class="img-fluid mx-auto d-block" src="https://orig00.deviantart.net/b907/f/2014/109/d/c/2014_nhl_playoffs_rd_1_blues_vs__blackhawks_by_epoole88-d7f2zx3.jpg">  
+            <img class="img-fluid mx-auto d-block" src="http://tickets.gohabs.com/images/habs_tor.jpg">  
         </div>
        
        <div class="jumbotron">
        	<!-- put in a small caption about the rivalry here -->
-       <h5><i>The Chicago Blackhawks and St. Louis Blues have a long, sometimes heated rivalry. It has ebbed and flowed over the years, but with both clubs among the best teams in the Western Conference in recent years, the level of competitiveness between them has increased.</i></h5>
+       <h5><i>The Canadiens dominated the Maple Leafs for the last 10 years, but this season the Maple Leafs won their first two games against the Canadiens. This is the oldest rivalry in the NHL which dates back to the early 20th Century. They have faced off 810 times throughout the history of the rivalry</i></h5>
        </div>
             
 
@@ -81,8 +81,8 @@
                 <div class="card-body">
                 	<!-- Insert here -->
         			<h5 class="text-center"><u>Stanley Cups</u></h5>
-                  <p class="card-text text-center"><strong>BLACKHAWKS : 6</strong></p>
-                  <p class="text-muted text-center">Blues : 0</p>
+                  <p class="card-text text-center"><strong>Canadians : 24</strong></p>
+                  <p class="text-muted text-center">Maple Leafs : 13</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       
@@ -98,8 +98,8 @@
                 <div class="card-body">
                 	<!-- Insert here -->
                 	<h5 class="text-center"><u>All Time Record</u></h5>
-                  <p class="card-text text-center"><strong>183-143-35-11</strong></p>
-                  <p class="text-center"><strong>CHICAGO</strong></p>
+                  <p class="card-text text-center"><strong>397–316–88–9</strong></p>
+                  <p class="text-center"><strong>Canadians</strong></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       
@@ -115,8 +115,8 @@
                 <div class="card-body">
                 	<!-- Insert here -->
                 	<h5 class="text-center"><u>Playoff Appearances</u></h5>
-                  <p class="card-text text-center"><strong>BLACKHAWKS : 62</strong></p>
-                  <p class="text-muted text-center">Blues : 41</p>
+                  <p class="card-text text-center"><strong>Canadians : 83</strong></p>
+                  <p class="text-muted text-center">Maple Leafs : 62</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       
@@ -133,8 +133,8 @@
                 <div class="card-body">
                 	<!-- Insert here -->
                 	<h5 class="text-center"><u>MVPs</u></h5>
-                  <p class="card-text text-center"><strong>BLACKHAWKS : 7</strong></p>
-                  <p class="text-muted text-center">Blues : 2</p>
+                  <p class="card-text text-center"><strong>Canadians : 18</strong></p>
+                  <p class="text-muted text-center">Maple Leafs : 2</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                      
@@ -150,7 +150,7 @@
       </div>
       <div class="card mb-4 box-shadow">
 		<h1 class="text-center">Current Team Statistics</h1>
-                 
+	</div>
         <table class="table table-bordered table-striped table-hover">
             <thead>
                 <tr>
@@ -177,7 +177,7 @@
 $servername = "sql303.epizy.com";
 $username = "epiz_20659252";
 $password = "password1";
-$dbname = "epiz_20659252_BluesHawks";
+$dbname = "epiz_20659252_CanadiensLeafs";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -218,7 +218,7 @@ $conn->close();
         <table class="table table-bordered table-striped table-hover">
             <thead>
             <tr>
-            <td class="text-center" colspan="14">Blues Statistics</td>
+            <td class="text-center" colspan="14">Montreal Statistics</td>
             </tr>
             </thead>
             <tbody>
@@ -245,7 +245,7 @@ $conn->close();
 $servername = "sql303.epizy.com";
 $username = "epiz_20659252";
 $password = "password1";
-$dbname = "epiz_20659252_BluesHawks";
+$dbname = "epiz_20659252_CanadiensLeafs";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -253,7 +253,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 #echo "<h1>Connected successfully</h1>";
-$sql = "SELECT * FROM stats WHERE Team = 'STL'";
+$sql = "SELECT * FROM stats WHERE Team = 'MTL'";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
@@ -307,7 +307,7 @@ header("refresh:2; url=index.php");
                 <table class="table table-bordered table-striped table-hover">
             <thead>
             <tr>
-            <td class="text-center" colspan="14">Hawks Statistics</td>
+            <td class="text-center" colspan="14">Maple Leafs Statistics</td>
             </tr>
             </thead>
             <tbody>
@@ -334,7 +334,7 @@ header("refresh:2; url=index.php");
 $servername = "sql303.epizy.com";
 $username = "epiz_20659252";
 $password = "password1";
-$dbname = "epiz_20659252_BluesHawks";
+$dbname = "epiz_20659252_CanadiensLeafs";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -342,7 +342,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 #echo "<h1>Connected successfully</h1>";
-$sql = "SELECT * FROM stats WHERE Team = 'CHI'";
+$sql = "SELECT * FROM stats WHERE Team = 'TOR'";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
@@ -390,13 +390,12 @@ header("refresh:2; url=index.php");
         
         </table>
         </form>
-        
-        
-          
-        </div>
-        
-        
-    </div>
+
+
+
+
+	
+	</div>
 
 	
 
