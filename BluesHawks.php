@@ -151,7 +151,8 @@
       </div>
       <div class="card mb-4 box-shadow">
 		<h1 class="text-center">Current Team Statistics</h1>
-          <table class="table table-bordered table-striped table-hover">
+                 
+        <table class="table table-bordered table-striped table-hover">
             <thead>
                 <tr>
                 <td class="text-center" colspan="14">Team Statistics</td>
@@ -176,7 +177,7 @@
             <?php
 $servername = "sql303.epizy.com";
 $username = "epiz_20659252";
-$password = "Blues314";
+$password = "password1";
 $dbname = "epiz_20659252_BluesHawks";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -238,17 +239,165 @@ $conn->close();
                     <th>GWG</th>
                     <th>OTG</th>
                     <th>SHOTS</th>
-                    <th>Delete</th>
+                    
                 </tr>
                 
 <?php
-	</div>
+$servername = "sql303.epizy.com";
+$username = "epiz_20659252";
+$password = "password1";
+$dbname = "epiz_20659252_BluesHawks";
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+#echo "<h1>Connected successfully</h1>";
+$sql = "SELECT * FROM stats WHERE Team = 'STL'";
+$result = $conn->query($sql);
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "<tr>";
+echo "<td>" . $row['Name'] . "</td>" ;
+echo "<td>" . $row['GP'] . "</td>" ;
+echo "<td>" . $row['G'] . "</td>" ;
+echo "<td>" . $row['A'] . "</td>" ;
+echo "<td>" . $row['P'] . "</td>" ;
+echo "<td>" . $row['+/-'] . "</td>" ;
+echo "<td>" . $row['PIM'] . "</td>" ;
+echo "<td>" . $row['PPG'] . "</td>" ;
+echo "<td>" . $row['PPP'] . "</td>" ;
+echo "<td>" . $row['SHG'] . "</td>" ;        
+echo "<td>" . $row['SHP'] . "</td>" ;
+echo "<td>" . $row['GWG'] . "</td>" ;
+echo "<td>" . $row['OTG'] . "</td>" ;
+echo "<td>" . $row['Shots'] . "</td>" ;
 
+echo "</tr>";
+    }
+} else {
+    echo "<p>0 results</p>";
+} //test
+if(isset($_POST['deleteItem']) and is_numeric($_POST['deleteItem']))
+{
+  // here comes your delete query: use $_POST['deleteItem'] as your id
+   $delete = $_POST['deleteItem'];
+   $sql1 = "DELETE FROM `stats` where `playerId` = '$delete'"; 
+}
+$conn->query($sql1); 
+$conn->close();
+sleep(2);
+header("refresh:2; url=index.php");
+?>
+                
+                
+                
+            
+            </tbody>
+        
+        
+        
+        
+        </table>
+        </form>
+        
+        
+        <form action="" method="post">
+                <table class="table table-bordered table-striped table-hover">
+            <thead>
+            <tr>
+            <td class="text-center" colspan="14">Hawks Statistics</td>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                
+                    <th>Player</th>
+                    <th>GP</th>
+                    <th>G</th>
+                    <th>A</th>
+                    <th>PTS</th>
+                    <th>+/-</th>
+                    <th>PIM</th>
+                    <th>PPG</th>
+                    <th>PPP</th>
+                    <th>SHG</th>
+                    <th>SHP</th>
+                    <th>GWG</th>
+                    <th>OTG</th>
+                    <th>SHOTS</th>
+                    
+                </tr>
+                
+<?php
+$servername = "sql303.epizy.com";
+$username = "epiz_20659252";
+$password = "password1";
+$dbname = "epiz_20659252_BluesHawks";
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+#echo "<h1>Connected successfully</h1>";
+$sql = "SELECT * FROM stats WHERE Team = 'CHI'";
+$result = $conn->query($sql);
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "<tr>";
+echo "<td>" . $row['Name'] . "</td>" ;
+echo "<td>" . $row['GP'] . "</td>" ;
+echo "<td>" . $row['G'] . "</td>" ;
+echo "<td>" . $row['A'] . "</td>" ;
+echo "<td>" . $row['P'] . "</td>" ;
+echo "<td>" . $row['+/-'] . "</td>" ;
+echo "<td>" . $row['PIM'] . "</td>" ;
+echo "<td>" . $row['PPG'] . "</td>" ;
+echo "<td>" . $row['PPP'] . "</td>" ;
+echo "<td>" . $row['SHG'] . "</td>" ;        
+echo "<td>" . $row['SHP'] . "</td>" ;
+echo "<td>" . $row['GWG'] . "</td>" ;
+echo "<td>" . $row['OTG'] . "</td>" ;
+echo "<td>" . $row['Shots'] . "</td>" ;
 
-
-
-	
-	</div>
+echo "</tr>";
+    }
+} else {
+    echo "<p>0 results</p>";
+} //test
+                
+if(isset($_POST['deleteItem']) and is_numeric($_POST['deleteItem']))
+{
+  // here comes your delete query: use $_POST['deleteItem'] as your id
+   $delete = $_POST['deleteItem'];
+   $sql1 = "DELETE FROM `stats` where `playerId` = '$delete'"; 
+}
+                $conn->query($sql1); 
+$conn->close();
+header("refresh:2; url=index.php");
+?>
+                
+                
+                
+            
+            </tbody>
+        
+        
+        
+        
+        </table>
+        </form>
+        
+        
+          
+        </div>
+        
+        
+    </div>
 
 	
 
