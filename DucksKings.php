@@ -38,8 +38,8 @@
 	        </a>
 	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 	          <a class="dropdown-item" href="BluesHawks.php">Blues vs Blackhawks</a>
-	          <a class="dropdown-item" href="#">Rangers vs Islanders</a>
-	          <a class="dropdown-item" href="#">Penguins vs Capitals</a>
+	          <a class="dropdown-item" href="RangersIslanders.php">Rangers vs Islanders</a>
+	          <a class="dropdown-item" href="PenguinsCapitals.php">Penguins vs Capitals</a>
 	          <a class="dropdown-item" href="CanadiensLeafs.php">Canadiens vs Maple Leafs</a>
 	          <a class="dropdown-item" href="DucksKings.php">Ducks vs Kings</a>
 	          

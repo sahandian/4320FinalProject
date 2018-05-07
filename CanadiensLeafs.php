@@ -41,7 +41,7 @@
 	          <a class="dropdown-item" href="RangersIslanders.php">Rangers vs Islanders</a>
 	          <a class="dropdown-item" href="PenguinsCapitals.php">Penguins vs Capitals</a>
 	          <a class="dropdown-item" href="CanadiensLeafs.php">Canadiens vs Maple Leafs</a>
-	          <a class="dropdown-item" href="#">Ducks vs Kings</a>
+	          <a class="dropdown-item" href="DucksKings.php">Ducks vs Kings</a>
 	         
 	        </div>
 	      </li>
