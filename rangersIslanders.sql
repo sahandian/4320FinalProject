@@ -43,3 +43,22 @@ INSERT INTO `stats` (`Name`, `Team`, `GP`, `G`, `A`, `P`, `+/-`, `PIM`, `PPG`, `
 ('Andrew Ladd','NYI',73,12,17,29,11,24,0,1,1,2,2,0,112),
 ('Thomas Hickey','NYI',69,5,20,25,20,24,0,0,0,0,0,0,87),
 ('Adam Pelech','NYI',78,3,16,19,7,28,0,2,0,1,1,0,106);
+
+CREATE TABLE IF NOT EXISTS `teams` (
+  `Team` text NOT NULL,
+  `City` text NOT NULL,
+  `TeamCode` text NOT NULL,
+  `GamesPlayed` int(11) NOT NULL,
+  `Points` int(11) NOT NULL,
+  `Wins` int(11) NOT NULL,
+  `Losses` int(11) NOT NULL,
+  `OvertimeLosses` int(11) NOT NULL,
+  `Division` text NOT NULL,
+  `Conferences` text NOT NULL,
+  `StanleyCups` text NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+
+INSERT INTO `teams` (`Team`, `City`, `TeamCode`, `GamesPlayed`, `Points`, `Wins`, `Losses`, `OvertimeLosses`, `Division`, `Conferences`, `StanleyCups`) VALUES
+('Rangers','New York','NYR',)
+('Islanders','New York', 'NYI',)
